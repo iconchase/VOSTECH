@@ -1,4 +1,4 @@
-package me.CHANGEME.slimefunaddon;
+package me.VOSTECH.slimefunaddon;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -28,7 +28,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          * 1. Creating a new Category
          * This Category will use the following ItemStack
          */
-        ItemStack itemGroupItem = new CustomItemStack(Material.DIAMOND, "&4Addon Category", "", "&a> Click to open");
+        ItemStack itemGroupItem = new CustomItemStack(Material.DIAMOND, "&4歌谣工艺", "", "&a> Click to open");
 
         // Give your Category a unique id.
         NamespacedKey itemGroupId = new NamespacedKey(this, "addon_category");
